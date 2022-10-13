@@ -1,3 +1,19 @@
-body {
+main {
+  width: 100%;
   max-width: 1170px;
+  margin: auto;
+  font-size: 40px;
+}
+
+.display {
+  display: flex;
+}
+
+h2 {
+  font-size: 80px;
+  text-align: center;
+}
+
+.kv-person_img1 {
+  width: 23%;
 }/*# sourceMappingURL=main.css.map */
