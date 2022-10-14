@@ -1,23 +1,100 @@
-
-main{
+main {
     width: 100%;
-max-width: 1170px;
-margin: auto;
-font-size: 40px;
-
+    max-width: 1170px;
+    margin: auto;
+    font-size: 40px;
 }
-.display{
-display: flex;
 
+.display {
+    display: flex;
 }
-    h2 {
-        font-size: 80px;
-        text-align: center;
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+}
+
+body {
+    .kv {
+        .kv-text {
+            text-align: center;
+
+            .kv-txt1 {
+                font-size: 29px;
+            }
+
+            .kv-txt2 {
+                font-size: 63px;
+            }
+
+            .kv-txt3 {
+                font-size: 24px;
+            }
+        }
+
+        .kv-wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .kvimg {
+                width: 23%;
+                display: block;
+            }
+
+            .kvimg-content1 {
+                // margin-top:6% ;
+                margin-left: 4.05%;
+            }
+
+            .kvimg-content2 {
+                text-align: right;
+            }
+
+
+
+        }
     }
 
+    // kvタグここまで
+
+    // mainここから
+    main {
+        .PetLivers {
+
+            .PetLivers-content {
+                background-color: #000000;
+display: flex;
+flex-wrap: wrap;
+.PetLivers-box {
+                    width: 19.1%;
+                    background: #FFFFFF;
+                    border: 3.79px solid #EA5555;
+                }
+
+                .txtLivers,
+                .txtName {
+                    font-size: 28px;
+                }
+
+                .txtComent {
+                    font-size: 16px;
+                }
+
+            }
+        }
+
+        // petliversここまで
+
+
+    }
+// mainここまで
 
 
 
-.kv-person_img1 {
-    width: 23%;
+
+
+
+
 }
+
+// ボディタグここまで

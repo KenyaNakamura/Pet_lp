@@ -1,3 +1,7 @@
+header li {
+  font-size: 20px;
+}
+
 main {
   width: 100%;
   max-width: 1170px;
@@ -14,6 +18,46 @@ h2 {
   text-align: center;
 }
 
-.kv-person_img1 {
+body .kv .kv-text {
+  text-align: center;
+}
+body .kv .kv-text .kv-txt1 {
+  font-size: 29px;
+}
+body .kv .kv-text .kv-txt2 {
+  font-size: 63px;
+}
+body .kv .kv-text .kv-txt3 {
+  font-size: 24px;
+}
+body .kv .kv-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+body .kv .kv-wrapper .kvimg {
   width: 23%;
+  display: block;
+}
+body .kv .kv-wrapper .kvimg-content1 {
+  margin-left: 4.05%;
+}
+body .kv .kv-wrapper .kvimg-content2 {
+  text-align: right;
+}
+body main .PetLivers .PetLivers-content {
+  background-color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main .PetLivers .PetLivers-content .PetLivers-box {
+  width: 19.1%;
+  background: #FFFFFF;
+  border: 3.79px solid #EA5555;
+}
+body main .PetLivers .PetLivers-content .txtLivers,
+body main .PetLivers .PetLivers-content .txtName {
+  font-size: 28px;
+}
+body main .PetLivers .PetLivers-content .txtComent {
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
