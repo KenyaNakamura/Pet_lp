@@ -1,9 +1,9 @@
 main {
     width: 100%;
-    max-width: 1170px;
+    // max-width: 1170px;
     margin: auto;
     font-size: 40px;
-    padding: 0 2.75%;
+    // padding: 0 2.75%;
 
 }
 
@@ -83,6 +83,7 @@ body {
 
     // mainここから
     main {
+
         .PetLivers {
             width: auto;
 
@@ -95,25 +96,67 @@ body {
                 background-color: #000000;
                 max-width: none;
 
-                .petliverswrap {
-                    display: flex;
-                    flex-wrap: wrap;
+                .petliverswrap1 {
+                    margin-top: 97px;
+                }
 
+                .petliverswrap1,
+                .petliverswrap2 {
+                    display: flex;
+                    justify-content: center;
                 }
 
                 .PetLivers-box {
                     width: 19.1%;
                     background: #FFFFFF;
+                    margin-right: 0.877%;
+                    margin-bottom: 21.93px;
+
+                    img {
+                        // width: 18.5%;
+                        width: 96.85863874%;
+                        margin: 20px 0.2945% 26.74px 0.2945%;
+                    }
+
+                    p {
+                        margin-left: 7.73560209%;
+                    }
+                }
+
+                .box1 {
                     border: 3.79px solid #EA5555;
-                    width: 25%;
-                    img{
-                    margin: 20px 0.2945% 26.74px 0.2945% ;
                 }
-                p{
-                margin-left: 1.4775%;
+
+                .box2 {
+                    border: 3.79px solid #A817FB;
                 }
-                
+
+                .box3 {
+                    border: 3.79px solid #F0C83B;
                 }
+
+                .box4 {
+                    border: 3.79px solid #E16A6E;
+                }
+
+                .box5 {
+                    border: 3.79px solid #ED61F6;
+                }
+
+                .box6 {
+                    border: 3.79px solid #52F1BF;
+                }
+
+                .box7 {
+                    border: 3.79px solid #55B0EA;
+                }
+
+                .box8 {
+                    border: 3.79px solid #FFB017;
+                }
+
+
+
 
                 .txtLivers,
                 .txtName {
@@ -133,44 +176,127 @@ body {
 
         // Aboutここから
         .About {
+
+
+
+            .about-content {
+                position: relative;
+            }
+
             .display {
+                align-items: center;
+            }
+
+            .aboutimg {
+                width: 25%;
+            }
+
+            .about-title {
+                margin-top: 93px;
+                font-weight: 700;
+            }
+
+            .display {
+                .About-img1 {
+                    width: 100%;
+                    margin-top: 33px;
+                    margin-left: 5.6%;
+                }
+
                 .About-img2 {
+                    width: 100%;
+                    margin-top: 28px;
                     margin-left: 13.25%;
                 }
 
                 .textblock {
                     display: block;
-                    margin-left: 16.8%;
+                    margin-left: 16.85%;
+                }
+
+                .AboutText {
+                    margin-bottom: 47px;
                 }
 
                 .AboutText-content {
                     font-size: 21px;
                 }
 
-                .aboutimg {
-                    width: 25%;
-                }
             }
-        }
 
-        // mainここまで
+            // about模様ここから
+            // .about-pattern {
+                .pattern {
+                    position: absolute;
+                }
+                    .pattern1 {
+                        width: 15.1%;
+                        top: 20px;
+                        left: 0;
+                    }
+
+                    .pattern2 {
+                        width: 12.0705%;
+                        right: 0.733%;
+                        top: 30px;
+                    }
+
+                    .pattern3 {
+                        width: 14.939%;
+                        left: 0;
+                        top: 497.22px;
+                    }
+
+                    .pattern4 {
+                        width: 17.45%;
+                        right: 0;
+                        top: 362px;
+                    }
+
+                    .pattern5 {
+                        width: 11.369%;
+                        top: 1101px;
+                    }
+
+                    .pattern6 {
+                     width:5.8435% ;
+                     right: 6.7065%;
+                     top: 1085px;
+                     }
+
+                
+
+
+            // }
+        }
     }
+
+    // mainここまで
+
 
 
     //  sponserここから
     .Sponser {
         text-align: center;
 
+        .Sponser-title {
+            font-weight: 700;
+            margin-bottom: 46px;
+        }
+
         .sponser-img1 {
             width: 70.5%;
+            margin-bottom: 83px;
         }
 
         .sponser-img2 {
             width: 29%;
+            margin-bottom: 11px;
         }
 
         .sponserText {
-            font-size: 40px;
+            font-size: 34px;
+            margin-bottom: 164px;
         }
     }
 

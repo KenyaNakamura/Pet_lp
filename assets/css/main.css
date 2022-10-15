@@ -10,10 +10,8 @@ header .headerlist li {
 
 main {
   width: 100%;
-  max-width: 1170px;
   margin: auto;
   font-size: 40px;
-  padding: 0 2.75%;
 }
 
 .display {
@@ -77,21 +75,50 @@ body main .PetLivers .PetLivers-content {
   background-color: #000000;
   max-width: none;
 }
-body main .PetLivers .PetLivers-content .petliverswrap {
+body main .PetLivers .PetLivers-content .petliverswrap1 {
+  margin-top: 97px;
+}
+body main .PetLivers .PetLivers-content .petliverswrap1,
+body main .PetLivers .PetLivers-content .petliverswrap2 {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 body main .PetLivers .PetLivers-content .PetLivers-box {
   width: 19.1%;
   background: #FFFFFF;
-  border: 3.79px solid #EA5555;
-  width: 25%;
+  margin-right: 0.877%;
+  margin-bottom: 21.93px;
 }
 body main .PetLivers .PetLivers-content .PetLivers-box img {
+  width: 96.85863874%;
   margin: 20px 0.2945% 26.74px 0.2945%;
 }
 body main .PetLivers .PetLivers-content .PetLivers-box p {
-  margin-left: 1.4775%;
+  margin-left: 7.73560209%;
+}
+body main .PetLivers .PetLivers-content .box1 {
+  border: 3.79px solid #EA5555;
+}
+body main .PetLivers .PetLivers-content .box2 {
+  border: 3.79px solid #A817FB;
+}
+body main .PetLivers .PetLivers-content .box3 {
+  border: 3.79px solid #F0C83B;
+}
+body main .PetLivers .PetLivers-content .box4 {
+  border: 3.79px solid #E16A6E;
+}
+body main .PetLivers .PetLivers-content .box5 {
+  border: 3.79px solid #ED61F6;
+}
+body main .PetLivers .PetLivers-content .box6 {
+  border: 3.79px solid #52F1BF;
+}
+body main .PetLivers .PetLivers-content .box7 {
+  border: 3.79px solid #55B0EA;
+}
+body main .PetLivers .PetLivers-content .box8 {
+  border: 3.79px solid #FFB017;
 }
 body main .PetLivers .PetLivers-content .txtLivers,
 body main .PetLivers .PetLivers-content .txtName {
@@ -101,30 +128,89 @@ body main .PetLivers .PetLivers-content .txtComent {
   font-size: 16px;
   margin-bottom: 27.56px;
 }
+body main .About .about-content {
+  position: relative;
+}
+body main .About .display {
+  align-items: center;
+}
+body main .About .aboutimg {
+  width: 25%;
+}
+body main .About .about-title {
+  margin-top: 93px;
+  font-weight: 700;
+}
+body main .About .display .About-img1 {
+  width: 100%;
+  margin-top: 33px;
+  margin-left: 5.6%;
+}
 body main .About .display .About-img2 {
+  width: 100%;
+  margin-top: 28px;
   margin-left: 13.25%;
 }
 body main .About .display .textblock {
   display: block;
-  margin-left: 16.8%;
+  margin-left: 16.85%;
+}
+body main .About .display .AboutText {
+  margin-bottom: 47px;
 }
 body main .About .display .AboutText-content {
   font-size: 21px;
 }
-body main .About .display .aboutimg {
-  width: 25%;
+body main .About .pattern {
+  position: absolute;
+}
+body main .About .pattern1 {
+  width: 15.1%;
+  top: 20px;
+  left: 0;
+}
+body main .About .pattern2 {
+  width: 12.0705%;
+  right: 0.733%;
+  top: 30px;
+}
+body main .About .pattern3 {
+  width: 14.939%;
+  left: 0;
+  top: 497.22px;
+}
+body main .About .pattern4 {
+  width: 17.45%;
+  right: 0;
+  top: 362px;
+}
+body main .About .pattern5 {
+  width: 11.369%;
+  top: 1101px;
+}
+body main .About .pattern6 {
+  width: 5.8435%;
+  right: 6.7065%;
+  top: 1085px;
 }
 body .Sponser {
   text-align: center;
 }
+body .Sponser .Sponser-title {
+  font-weight: 700;
+  margin-bottom: 46px;
+}
 body .Sponser .sponser-img1 {
   width: 70.5%;
+  margin-bottom: 83px;
 }
 body .Sponser .sponser-img2 {
   width: 29%;
+  margin-bottom: 11px;
 }
 body .Sponser .sponserText {
-  font-size: 40px;
+  font-size: 34px;
+  margin-bottom: 164px;
 }
 
 #service {
