@@ -222,6 +222,8 @@ body .Sponser .sponserText {
 }
 #service h3 {
   font-size: 18px;
+  margin-top: 19px;
+  margin-bottom: 19px;
 }
 #service p {
   font-size: 16px;
@@ -231,8 +233,8 @@ body .Sponser .sponserText {
 }
 #service .boxs .box {
   border: solid 3.42px #9067E9;
-  width: 31.959844%;
-  margin-right: 1.93107%;
+  width: 24.991%;
+  margin-right: 1.7215%;
   box-shadow: 12.435px 17.875px #9067E9;
   display: flex;
   flex-direction: column;
@@ -241,13 +243,13 @@ body .Sponser .sponserText {
   content: "";
 }
 #service .boxs .imgbox {
-  padding-top: 5.587478%;
-  padding-left: 10.455764%;
   flex-basis: 0;
   flex-grow: 1;
 }
 #service .boxs img {
   width: 32.769797%;
+  padding-top: 5.587478%;
+  padding-left: 10.603817%;
 }
 
 #voice h2 {
@@ -255,29 +257,63 @@ body .Sponser .sponserText {
   margin-bottom: 71px;
 }
 #voice .v-container {
+  position: relative;
   justify-content: space-between;
 }
-#voice .v-container img {
-  width: 43.568182%;
+#voice .v-container .voiceright {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: end;
 }
-#voice .v-container div {
+#voice .v-container .voiceright img {
+  width: 63.9%;
+  margin-right: 6.5%;
+  box-shadow: -27.75px 16.5px #e7afc3;
+}
+#voice .v-container .voiceleft {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 #voice .v-container .text1 {
   font-size: 16px;
   margin-bottom: 25px;
+  margin-left: 6.5%;
 }
 #voice .v-container .text2 {
   font-size: 21px;
   margin-bottom: 27px;
+  margin-left: 6.5%;
 }
 #voice .v-container .text3 {
   font-size: 18px;
+  margin-left: 6.5%;
 }
-#voice .v-container div {
-  display: flex;
+#voice .v-container .back {
+  z-index: 1;
+  position: absolute;
+}
+#voice .v-container .deko1 {
+  width: 10.2%;
+  top: -39px;
+  left: 1%;
+  width: 10.2%;
+}
+#voice .v-container .deko2 {
+  width: 17.366%;
+  top: -39px;
+  right: 0;
+}
+#voice .v-container .deko3 {
+  width: 20%;
+  bottom: 0%;
+}
+#voice .v-container .deko4 {
+  width: 13.2625%;
+  right: 1.9875%;
+  bottom: 0;
 }
 
 #contact h2 {
@@ -287,6 +323,7 @@ body .Sponser .sponserText {
 }
 #contact .c-container h2 {
   font-size: 25px;
+  text-align: left;
 }
 #contact .c-container p {
   font-size: 18px;
@@ -298,9 +335,19 @@ body .Sponser .sponserText {
 #contact .c-container .forclient {
   border-right: solid 1px black;
 }
+#contact .c-container .forclient h2 {
+  display: inline-block;
+  padding: 0 2.11%;
+  margin: 100px 0 40px 31%;
+  background: linear-gradient(transparent 70%, #FFEA02 70%);
+}
 #contact .c-container .forclient p {
   font-size: 18px;
   margin-bottom: 44px;
+  padding: 0 0 0 31%;
+}
+#contact .c-container .forclient form {
+  padding: 0 0 0 31%;
 }
 #contact .c-container .forclient form .font {
   font-size: 18px;
@@ -333,6 +380,9 @@ body .Sponser .sponserText {
 #contact .c-container .forliver h2 {
   text-align: left;
   margin-left: 6.3%;
+  display: inline-block;
+  padding: 0 2.11%;
+  background: linear-gradient(transparent 70%, #20C55A 70%);
 }
 #contact .c-container .forliver p {
   margin-left: 6.3%;
@@ -342,9 +392,13 @@ body .Sponser .sponserText {
   margin-top: 200px;
   align-items: center;
 }
-#contact .c-container .forliver .whatsapp .mark {
-  width: 100%;
+#contact .c-container .forliver .whatsapp .img1 {
+  width: 12.515778%;
 }
+#contact .c-container .forliver .whatsapp .img2 {
+  width: 68.1175519%;
+}
+
 #company h2 {
   font-weight: bold;
   margin-top: 100px;
@@ -366,6 +420,7 @@ body .Sponser .sponserText {
 #company .company .companyleft p {
   margin-top: 20px;
   font-size: 18px;
+  margin-right: 5.3%;
 }
 #company .company .map {
   flex-basis: 0;

@@ -1,5 +1,7 @@
 #service {
     position: relative;
+    // max-width: 1170px;
+    // margin: auto;
 
     h2 {
         margin-bottom: 40px;
@@ -8,6 +10,8 @@
 
     h3 {
         font-size: 18px;
+        margin-top: 19px;
+        margin-bottom: 19px;
     }
 
     p {
@@ -20,8 +24,8 @@
 
         .box {
             border: solid 3.42px #9067E9;
-            width: 31.959844%;
-            margin-right: 1.93107%;
+            width: 24.991%;
+            margin-right: 1.7215%;
             box-shadow: 12.435px 17.875px #9067E9;
             display: flex;
             flex-direction: column;
@@ -33,14 +37,15 @@
         }
 
         .imgbox {
-            padding-top: 5.587478%;
-            padding-left: 10.455764%;
+
             flex-basis: 0;
             flex-grow: 1;
         }
 
         img {
             width: 32.769797%;
+            padding-top: 5.587478%;
+            padding-left: 10.603817%;
 
         }
     }
@@ -48,6 +53,7 @@
 
 
 #voice {
+
     h2 {
         margin-top: 97px;
         margin-bottom: 71px;
@@ -55,36 +61,77 @@
 
 
     .v-container {
+        position: relative;
         justify-content: space-between;
 
-        img {
-            width: 43.568182%;
+        .voiceright {
+            flex-basis: 0;
+            flex-grow: 1;
+            text-align: end;
+
+            img {
+                width: 63.9%;
+                margin-right: 6.5%;
+                box-shadow: -27.75px 16.5px #e7afc3;
+            }
         }
 
-        div {
+        .voiceleft {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            flex-basis: 0;
+            flex-grow: 1;
         }
 
         .text1 {
             font-size: 16px;
             margin-bottom: 25px;
+            margin-left: 6.5%;
         }
 
         .text2 {
             font-size: 21px;
             margin-bottom: 27px;
+            margin-left: 6.5%;
         }
 
         .text3 {
             font-size: 18px;
+            margin-left: 6.5%;
         }
 
-        div {
-            display: flex;
+        .back {
+            z-index: 1;
+            position: absolute;
+        }
+
+        .deko1 {
+            width: 10.2%;
+            top: -39px;
+            left: 1%;
+            width: 10.2%;
 
         }
+
+        .deko2 {
+            width: 17.366%;
+            top: -39px;
+            right: 0;
+        }
+
+        .deko3 {
+            width: 20%;
+            bottom: 0%;
+        }
+
+        .deko4 {
+            width: 13.2625%;
+            right: 1.9875%;
+            bottom: 0;
+        }
+
+
     }
 }
 
@@ -98,6 +145,7 @@
     .c-container {
         h2 {
             font-size: 25px;
+            text-align: left;
         }
 
         p {
@@ -113,12 +161,22 @@
         .forclient {
             border-right: solid 1px black;
 
+            h2 {
+                display: inline-block;
+                padding: 0 2.11%;
+                margin: 100px 0 40px 31%;
+                background: linear-gradient(transparent 70%, #FFEA02 70%);
+            }
+
             p {
                 font-size: 18px;
                 margin-bottom: 44px;
+                padding: 0 0 0 31%;
             }
 
             form {
+                padding: 0 0 0 31%;
+
                 .font {
                     font-size: 18px;
                     display: flex;
@@ -161,6 +219,10 @@
             h2 {
                 text-align: left;
                 margin-left: 6.3%;
+                display: inline-block;
+                padding: 0 2.11%;
+                background: linear-gradient(transparent 70%, #20C55A 70%);
+
             }
 
             p {
@@ -173,11 +235,15 @@
                 margin-top: 200px;
                 align-items: center;
 
-                .mark {
-                    width: 100%;
+                .img1 {
+                    width: 12.515778%;
+
                 }
 
-                .app {}
+                .img2 {
+                    width: 68.1175519%;
+                }
+
             }
         }
     }
@@ -209,6 +275,7 @@
             p {
                 margin-top: 20px;
                 font-size: 18px;
+                margin-right: 5.3%;
             }
 
         }
@@ -221,7 +288,7 @@
     }
 }
 
-footer{
+footer {
     margin-top: 239px;
     text-align: center;
     background-color: black;
