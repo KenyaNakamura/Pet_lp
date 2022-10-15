@@ -1,0 +1,231 @@
+#service {
+    position: relative;
+
+    h2 {
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .boxs {
+
+        justify-content: center;
+
+        .box {
+            border: solid 3.42px #9067E9;
+            width: 31.959844%;
+            margin-right: 1.93107%;
+            box-shadow: 12.435px 17.875px #9067E9;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &::after {
+            content: "";
+
+        }
+
+        .imgbox {
+            padding-top: 5.587478%;
+            padding-left: 10.455764%;
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+
+        img {
+            width: 32.769797%;
+
+        }
+    }
+}
+
+
+#voice {
+    h2 {
+        margin-top: 97px;
+        margin-bottom: 71px;
+    }
+
+
+    .v-container {
+        justify-content: space-between;
+
+        img {
+            width: 43.568182%;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .text1 {
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .text2 {
+            font-size: 21px;
+            margin-bottom: 27px;
+        }
+
+        .text3 {
+            font-size: 18px;
+        }
+
+        div {
+            display: flex;
+
+        }
+    }
+}
+
+#contact {
+    h2 {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    .c-container {
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .for {
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+
+
+        .forclient {
+            border-right: solid 1px black;
+
+            p {
+                font-size: 18px;
+                margin-bottom: 44px;
+            }
+
+            form {
+                .font {
+                    font-size: 18px;
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin-bottom: 21.97px;
+                    }
+
+                    .area {
+                        border: solid 1px;
+                        margin-bottom: 25px;
+                        margin-right: 8.8%;
+                    }
+
+                    textarea {
+                        height: 332px;
+                    }
+
+                }
+
+                #btn {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 8.8%;
+                    background-color: black;
+
+                    .btn {
+                        font-size: 18px;
+                        text-align: center;
+                        color: white;
+                        margin: 23px 0 30px 0;
+                    }
+                }
+            }
+
+        }
+
+        .forliver {
+            h2 {
+                text-align: left;
+                margin-left: 6.3%;
+            }
+
+            p {
+                margin-left: 6.3%;
+
+            }
+
+            .whatsapp {
+                margin-left: 6.3%;
+                margin-top: 200px;
+                align-items: center;
+
+                .mark {
+                    width: 100%;
+                }
+
+                .app {}
+            }
+        }
+    }
+}
+
+#company {
+    h2 {
+        font-weight: bold;
+        margin-top: 100px;
+
+    }
+
+    .company {
+        margin-top: 40px;
+
+        .companyleft {
+            flex-basis: 0;
+            flex-grow: 1;
+
+            h3 {
+                margin-top: 15px;
+            }
+
+            h4 {
+                font-size: 21px;
+                margin-top: 20px
+            }
+
+            p {
+                margin-top: 20px;
+                font-size: 18px;
+            }
+
+        }
+
+        .map {
+            flex-basis: 0;
+            flex-grow: 1;
+
+        }
+    }
+}
+
+footer{
+    margin-top: 239px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 24px 0;
+}
