@@ -8,6 +8,11 @@ header .headerlist li {
   padding-top: 27px;
 }
 
+.maxwidth {
+  max-width: 1170px;
+  margin: auto;
+}
+
 main {
   width: 100%;
   margin: auto;
@@ -73,22 +78,23 @@ body main .PetLivers .petlivers-title {
 }
 body main .PetLivers .PetLivers-content {
   background-color: #000000;
-  padding: 98.01px 10.5555%;
 }
 body main .PetLivers .PetLivers-content .petliverswrap1,
 body main .PetLivers .PetLivers-content .petliverswrap2 {
   display: flex;
   justify-content: center;
+  max-width: 1170px;
+  margin: auto;
 }
 body main .PetLivers .PetLivers-content .PetLivers-box {
-  width: 19.1%;
+  width: 24.184256%;
   background: #FFFFFF;
   margin-right: 0.877%;
   margin-bottom: 21.93px;
 }
 body main .PetLivers .PetLivers-content .PetLivers-box img {
   width: 96.85863874%;
-  margin: 20px 0.2945% 26.74px 0.2945%;
+  margin: 0 auto;
 }
 body main .PetLivers .PetLivers-content .PetLivers-box p {
   margin-left: 7.73560209%;
@@ -132,9 +138,10 @@ body main .About .about-content {
 }
 body main .About .display {
   align-items: center;
+  justify-content: space-between;
 }
 body main .About .aboutimg {
-  width: 25%;
+  width: 35.536603%;
 }
 body main .About .about-title {
   margin-top: 93px;
@@ -143,17 +150,16 @@ body main .About .about-title {
 body main .About .display .About-img1 {
   width: 100%;
   margin-top: 33px;
-  margin-left: 5.6%;
+  box-shadow: 25px 25px #F9C83B;
 }
 body main .About .display .About-img2 {
   width: 100%;
   margin-top: 28px;
-  margin-left: 13.25%;
-  box-shadow: #F9C83B;
+  box-shadow: -25px 25px #FFF835;
 }
 body main .About .display .textblock {
   display: block;
-  margin-left: 16.85%;
+  z-index: 2;
 }
 body main .About .display .AboutText {
   margin-bottom: 47px;

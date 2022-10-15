@@ -1,3 +1,8 @@
+ .maxwidth {
+    max-width: 1170px;
+    margin: auto;
+}
+
 main {
     width: 100%;
     // max-width: 1170px;
@@ -94,7 +99,8 @@ body {
 
             .PetLivers-content {
                 background-color: #000000;
-                padding: 98.01px 10.5555%;
+
+
 
 
 
@@ -102,10 +108,13 @@ body {
                 .petliverswrap2 {
                     display: flex;
                     justify-content: center;
+                    max-width: 1170px;
+                    margin: auto;
                 }
 
                 .PetLivers-box {
-                    width: 19.1%;
+                    width: 24.184256%;
+
                     background: #FFFFFF;
                     margin-right: 0.877%;
                     margin-bottom: 21.93px;
@@ -113,7 +122,8 @@ body {
                     img {
                         // width: 18.5%;
                         width: 96.85863874%;
-                        margin: 20px 0.2945% 26.74px 0.2945%;
+                        margin: 0 auto;
+                        // margin: 20px 0.2945% 26.74px 0.2945%;
                     }
 
                     p {
@@ -173,9 +183,11 @@ body {
 
 
         // Aboutここから
+       
+       
         .About {
 
-
+          
 
             .about-content {
                 position: relative;
@@ -183,10 +195,11 @@ body {
 
             .display {
                 align-items: center;
+                justify-content: space-between;
             }
 
             .aboutimg {
-                width: 25%;
+                width: 35.536603%;
             }
 
             .about-title {
@@ -198,20 +211,21 @@ body {
                 .About-img1 {
                     width: 100%;
                     margin-top: 33px;
-                    margin-left: 5.6%;
+                    box-shadow: 25px 25px #F9C83B;
+
                 }
 
                 .About-img2 {
                     width: 100%;
                     margin-top: 28px;
-                    margin-left: 13.25%;
-                    box-shadow: #F9C83B;
-
+                    // margin-left: 13.25%;
+                    box-shadow: -25px 25px #FFF835;
                 }
 
                 .textblock {
                     display: block;
-                    margin-left: 16.85%;
+                    z-index: 2;
+                    // margin-left: 16.85%;
                 }
 
                 .AboutText {
