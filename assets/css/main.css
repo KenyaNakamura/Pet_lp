@@ -120,7 +120,9 @@ body main .PetLivers .PetLivers-content .box7 {
 body main .PetLivers .PetLivers-content .box8 {
   border: 3.79px solid #FFB017;
 }
-body main .PetLivers .PetLivers-content .txtLivers,
+body main .PetLivers .PetLivers-content .txtLivers {
+  font-size: 16px;
+}
 body main .PetLivers .PetLivers-content .txtName {
   font-size: 28px;
 }
@@ -150,6 +152,7 @@ body main .About .display .About-img2 {
   width: 100%;
   margin-top: 28px;
   margin-left: 13.25%;
+  box-shadow: #F9C83B;
 }
 body main .About .display .textblock {
   display: block;

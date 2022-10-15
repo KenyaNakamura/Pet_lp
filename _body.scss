@@ -155,10 +155,10 @@ body {
                     border: 3.79px solid #FFB017;
                 }
 
+                .txtLivers {
+                    font-size: 16px;
+                }
 
-
-
-                .txtLivers,
                 .txtName {
                     font-size: 28px;
                 }
@@ -207,6 +207,8 @@ body {
                     width: 100%;
                     margin-top: 28px;
                     margin-left: 13.25%;
+                    box-shadow: #F9C83B;
+                    
                 }
 
                 .textblock {
@@ -226,45 +228,46 @@ body {
 
             // about模様ここから
             // .about-pattern {
-                .pattern {
-                    position: absolute;
-                }
-                    .pattern1 {
-                        width: 15.1%;
-                        top: 20px;
-                        left: 0;
-                    }
+            .pattern {
+                position: absolute;
+            }
 
-                    .pattern2 {
-                        width: 12.0705%;
-                        right: 0.733%;
-                        top: 30px;
-                    }
+            .pattern1 {
+                width: 15.1%;
+                top: 20px;
+                left: 0;
+            }
 
-                    .pattern3 {
-                        width: 14.939%;
-                        left: 0;
-                        top: 497.22px;
-                    }
+            .pattern2 {
+                width: 12.0705%;
+                right: 0.733%;
+                top: 30px;
+            }
 
-                    .pattern4 {
-                        width: 17.45%;
-                        right: 0;
-                        top: 362px;
-                    }
+            .pattern3 {
+                width: 14.939%;
+                left: 0;
+                top: 497.22px;
+            }
 
-                    .pattern5 {
-                        width: 11.369%;
-                        top: 1101px;
-                    }
+            .pattern4 {
+                width: 17.45%;
+                right: 0;
+                top: 362px;
+            }
 
-                    .pattern6 {
-                     width:5.8435% ;
-                     right: 6.7065%;
-                     top: 1085px;
-                     }
+            .pattern5 {
+                width: 11.369%;
+                top: 1101px;
+            }
 
-                
+            .pattern6 {
+                width: 5.8435%;
+                right: 6.7065%;
+                top: 1085px;
+            }
+
+
 
 
             // }
