@@ -3,6 +3,8 @@ main {
     max-width: 1170px;
     margin: auto;
     font-size: 40px;
+    padding: 0 2.75%;
+
 }
 
 .display {
@@ -10,14 +12,34 @@ main {
 }
 
 h2 {
-    font-size: 80px;
+    font-size: 43px;
     text-align: center;
 }
 
+
+
 body {
+
+
     .kv {
+        position: relative;
+
+        .kvbgimg {
+            position: absolute;
+
+            .kvbgimg,
+            .kv-wrapper {
+                margin-top: 120px;
+            }
+        }
+
+        .kv-person_img3,
+        .kv-person_img1 {
+            padding-bottom: 14px;
+        }
+
         .kv-text {
-            text-align: center;
+            z-index: 1;
 
             .kv-txt1 {
                 font-size: 29px;
@@ -32,22 +54,24 @@ body {
             }
         }
 
+
+
         .kv-wrapper {
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            padding: 0 2.75%;
+            aspect-ratio: 13 / 7;
+
+            .kvimg-content1,
+            .kvimg-content2 {
+                width: 23%;
+            }
 
             .kvimg {
-                width: 23%;
+                width: 100%;
                 display: block;
-            }
 
-            .kvimg-content1 {
-                // margin-top:6% ;
-                margin-left: 4.05%;
-            }
-
-            .kvimg-content2 {
-                text-align: right;
             }
 
 
@@ -60,15 +84,35 @@ body {
     // mainここから
     main {
         .PetLivers {
+            width: auto;
+
+            .petlivers-title {
+                margin-top: 104px;
+                margin-bottom: 61px;
+            }
 
             .PetLivers-content {
                 background-color: #000000;
-display: flex;
-flex-wrap: wrap;
-.PetLivers-box {
+                max-width: none;
+
+                .petliverswrap {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                }
+
+                .PetLivers-box {
                     width: 19.1%;
                     background: #FFFFFF;
                     border: 3.79px solid #EA5555;
+                    width: 25%;
+                    img{
+                    margin: 20px 0.2945% 26.74px 0.2945% ;
+                }
+                p{
+                margin-left: 1.4775%;
+                }
+                
                 }
 
                 .txtLivers,
@@ -78,6 +122,7 @@ flex-wrap: wrap;
 
                 .txtComent {
                     font-size: 16px;
+                    margin-bottom: 27.56px;
                 }
 
             }
@@ -86,14 +131,48 @@ flex-wrap: wrap;
         // petliversここまで
 
 
+        // Aboutここから
+        .About {
+            .display {
+                .About-img2 {
+                    margin-left: 13.25%;
+                }
+
+                .textblock {
+                    display: block;
+                    margin-left: 16.8%;
+                }
+
+                .AboutText-content {
+                    font-size: 21px;
+                }
+
+                .aboutimg {
+                    width: 25%;
+                }
+            }
+        }
+
+        // mainここまで
     }
-// mainここまで
 
 
+    //  sponserここから
+    .Sponser {
+        text-align: center;
 
+        .sponser-img1 {
+            width: 70.5%;
+        }
 
+        .sponser-img2 {
+            width: 29%;
+        }
 
-
+        .sponserText {
+            font-size: 40px;
+        }
+    }
 
 }
 

@@ -1,7 +1,11 @@
 header{
-li{
-// font-size: 43.17px;
-font-size: 20px;
-
+.headerlist{
+display: flex;
+justify-content: flex-end;
+    li{
+font-size: 22px;
+padding-right: 3.6235%;
+padding-top: 27px;
+}
 }
 }
