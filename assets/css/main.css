@@ -73,10 +73,7 @@ body main .PetLivers .petlivers-title {
 }
 body main .PetLivers .PetLivers-content {
   background-color: #000000;
-  max-width: none;
-}
-body main .PetLivers .PetLivers-content .petliverswrap1 {
-  margin-top: 97px;
+  padding: 98.01px 10.5555%;
 }
 body main .PetLivers .PetLivers-content .petliverswrap1,
 body main .PetLivers .PetLivers-content .petliverswrap2 {
