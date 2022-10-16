@@ -1,0 +1,23 @@
+@media screen and (max-width:767px) {
+    $mainfont: 18px;
+    $subfont: 16px;
+
+    // ヘッダー
+    header {
+        
+        .headerlist{
+
+            font-size: $subfont;
+            li{
+                font-size:$subfont;
+                display: none;
+
+            }
+        }
+    }
+
+    .kv{
+        
+
+    }
+}

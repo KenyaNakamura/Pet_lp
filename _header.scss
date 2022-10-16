@@ -1,11 +1,14 @@
-header{
-.headerlist{
-display: flex;
-justify-content: flex-end;
-    li{
-font-size: 22px;
-padding-right: 3.6235%;
-padding-top: 27px;
-}
-}
+header {
+    .headerlist {
+        display: flex;
+        justify-content: space-between;
+        width: 70.845%;
+        margin-left: 27.65%;
+        margin-right: 1.505%;
+
+        li {
+            font-size: 22px;
+            padding-top: 27px;
+        }
+    }
 }

@@ -24,11 +24,23 @@
 
         .box {
             border: solid 3.42px #9067E9;
-            width: 24.991%;
-            margin-right: 1.7215%;
+            width: 31.634177%;
+            margin-right: 2.179114%;
             box-shadow: 12.435px 17.875px #9067E9;
             display: flex;
             flex-direction: column;
+
+            .margin1 {
+                margin-top: 24px;
+            }
+
+            .margin2 {
+                margin-top: 69px;
+            }
+
+            .margin3 {
+                margin-top: 96px;
+            }
         }
 
         &::after {
@@ -38,14 +50,29 @@
 
         .imgbox {
 
-            flex-basis: 0;
-            flex-grow: 1;
+
+            .flex {
+                display: flex;
+                flex-direction: column;
+                padding-left: 8.236965%;
+
+                h3 {
+                    flex-basis: 0;
+                    flex-grow: 1;
+
+                }
+
+                p {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                }
+            }
         }
 
         img {
             width: 32.769797%;
             padding-top: 5.587478%;
-            padding-left: 10.603817%;
+            padding-left: 8.236965%;
 
         }
     }
@@ -68,10 +95,11 @@
             flex-basis: 0;
             flex-grow: 1;
             text-align: end;
+            width: 40.443038%;
+            margin-right: 4.367089%;
 
             img {
-                width: 63.9%;
-                margin-right: 6.5%;
+                width: 100%;
                 box-shadow: -27.75px 16.5px #e7afc3;
             }
         }
@@ -87,18 +115,18 @@
         .text1 {
             font-size: 16px;
             margin-bottom: 25px;
-            margin-left: 6.5%;
+            margin-left: 4.367089%;
         }
 
         .text2 {
             font-size: 21px;
             margin-bottom: 27px;
-            margin-left: 6.5%;
+            margin-left: 4.367089%;
         }
 
         .text3 {
             font-size: 18px;
-            margin-left: 6.5%;
+            margin-left: 4.367089%;
         }
 
         .back {
@@ -160,22 +188,24 @@
 
         .forclient {
             border-right: solid 1px black;
+            width: 40.063291%;
 
             h2 {
                 display: inline-block;
                 padding: 0 2.11%;
-                margin: 100px 0 40px 31%;
+                margin: 100px 0 40px 0;
                 background: linear-gradient(transparent 70%, #FFEA02 70%);
             }
 
             p {
                 font-size: 18px;
                 margin-bottom: 44px;
-                padding: 0 0 0 31%;
+
             }
 
             form {
-                padding: 0 0 0 31%;
+
+                width: 100%;
 
                 .font {
                     font-size: 18px;
@@ -189,7 +219,7 @@
                     .area {
                         border: solid 1px;
                         margin-bottom: 25px;
-                        margin-right: 8.8%;
+                        margin-right: 5.56962%;
                     }
 
                     textarea {
@@ -201,7 +231,7 @@
                 #btn {
                     display: flex;
                     justify-content: center;
-                    margin-right: 8.8%;
+                    margin-right: 5.56962%;
                     background-color: black;
 
                     .btn {
@@ -218,7 +248,7 @@
         .forliver {
             h2 {
                 text-align: left;
-                margin-left: 6.3%;
+                margin-left: 10.2165%;
                 display: inline-block;
                 padding: 0 2.11%;
                 background: linear-gradient(transparent 70%, #20C55A 70%);
@@ -226,22 +256,31 @@
             }
 
             p {
-                margin-left: 6.3%;
+                margin-left: 10.253165%;
 
             }
 
             .whatsapp {
-                margin-left: 6.3%;
+                margin-left: 10.253165%;
                 margin-top: 200px;
                 align-items: center;
 
                 .img1 {
-                    width: 12.515778%;
+                    width: 14.559494%;
+
+                    img {
+                        width: 100%;
+                    }
 
                 }
 
                 .img2 {
-                    width: 68.1175519%;
+                    width: 79.240506%;
+                    margin-left: -3.456835%;
+
+                    img {
+                        width: 100%;
+                    }
                 }
 
             }
@@ -283,6 +322,11 @@
         .map {
             flex-basis: 0;
             flex-grow: 1;
+            width: 99.620253%;
+
+            iframe {
+                width: 100%;
+            }
 
         }
     }
