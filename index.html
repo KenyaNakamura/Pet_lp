@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 
     <!-- ヘッダー -->
     <header>
-        <ul class="headerlist display">
+        <ul class="animation headerlist display">
             <li>Livers</li>
             <li>About</li>
             <li>Sponser</li>
@@ -57,29 +58,29 @@
     <!-- セクションPet Livers -->
     <main>
         <section class="PetLivers">
-            <h2 class="petlivers-title maxwidth">Pet Livers</h2>
-            <div class="PetLivers-content">
+            <h2 class="animation petlivers-title maxwidth">Pet Livers</h2>
+            <div class="animation PetLivers-content">
                 <div class="petliverswrap1">
-                    <div class="PetLivers-box box1">
+                    <div data-aos="fade-zoom-in" data-aos-delay="500" class="PetLivers-box box1">
                         <img src="./img/liver_01.jpg" alt="liver_01">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">Alice</p>
                         <p class="txtComent">There is no gain without pain</p>
                     </div>
-                    <div class="PetLivers-box box2">
+                    <div data-aos="fade-zoom-in" data-aos-delay="1000" class="PetLivers-box box2">
                         <img src="./img/liver_02.jpg" alt="liver_02">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">Nancy</p>
                         <p class="txtComent">Obviously there is no better friend than my dog</p>
                     </div>
-                    <div class="PetLivers-box box3">
+                    <div data-aos="fade-zoom-in" data-aos-delay="1500" class="PetLivers-box box3">
                         <img src="./img/liver_06.jpg" alt="liver_03">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">Mat</p>
                         <p class="txtComent">There is only one kind of superhero and that is my dog.</p>
 
                     </div>
-                    <div class="PetLivers-box box4">
+                    <div data-aos="fade-zoom-in" data-aos-delay="2000" class="PetLivers-box box4">
                         <img src="./img/liver_05.jpg" alt="liver_04">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">Oscar</p>
@@ -87,25 +88,25 @@
                     </div>
                 </div>
                 <div class="petliverswrap2">
-                    <div class="PetLivers-box box5">
+                    <div data-aos="fade-zoom-in" data-aos-delay="500" class="PetLivers-box box5">
                         <img src="./img/liver_08.jpg" alt="liver_05">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">Nataly</p>
                         <p class="txtComent">It is totally normal to undestand your pet feelings. </p>
                     </div>
-                    <div class="PetLivers-box box6">
+                    <div data-aos="fade-zoom-in" data-aos-delay="1000" class="PetLivers-box box6">
                         <img src="./img/liver_07.jpg" alt="liver_06">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">Zach</p>
                         <p class="txtComent">Hiking with my cat gives me a whole another perspective of nature</p>
                     </div>
-                    <div class="PetLivers-box box7">
+                    <div data-aos="fade-zoom-in" data-aos-delay="1500" class="PetLivers-box box7">
                         <img src="./img/liver_10.jpg" alt="liver_07">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">John</p>
                         <p class="txtComent">My parrot is so well trained he can immitate any Hollywood star.</p>
                     </div>
-                    <div class="PetLivers-box box8">
+                    <div data-aos="fade-zoom-in" data-aos-delay="2000" class="PetLivers-box box8">
                         <img src="./img/liver_09.jpg" alt="liver_08">
                         <p class="txtLivers">Liver</p>
                         <p class="txtName">Simona</p>
@@ -118,7 +119,7 @@
 
         <!-- セクションAbout -->
         <section class="About">
-            <h2 class="about-title maxwidth">About</h2>
+            <h2 class="animation about-title maxwidth">About</h2>
             <div class="about-content">
                 <!-- <div class="about-pattern"> -->
                 <img class="pattern pattern1" src="./img/deco_01.png" alt="">
@@ -131,7 +132,7 @@
 
                 <div class="maxwidth">
                     <div class="display">
-                        <div class="textblock">
+                        <div class="animation textblock">
                             <p class="AboutText">About us</p>
                             <p class="AboutText-content textcontent1">
                                 We are a company that started with a <br>
@@ -144,15 +145,17 @@
                             </p>
                         </div>
                         <div class="aboutimg aboutbgimg1">
-                            <img class="About-img1" src="./img/about_01.jpg" alt="aboutimg1">
+                            <img data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in"
+                                data-aos-duration="500" class="About-img1" src="./img/about_01.jpg" alt="aboutimg1">
                         </div>
                     </div>
 
                     <div class="display">
                         <div class="aboutimg aboutbgimg2">
-                            <img class="About-img2" src="./img/about_02.jpg" alt="aboutimg2">
+                            <img data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in"
+                                data-aos-duration="500" class="About-img2" src="./img/about_02.jpg" alt="aboutimg2">
                         </div>
-                        <div class="textblock">
+                        <div class="animation textblock">
                             <p class="AboutText">No. 1 customer support</p>
                             <p class="AboutText-content textcontent2">
                                 We know you are not a proffesional liver. <br>
@@ -172,17 +175,17 @@
         </section>
 
         <section class="Sponser maxwidth">
-            <h2 class="Sponser-title">Sponser</h2>
-            <img class="sponser-img1" src="./img/animalprotection.jpg" alt="animalprotection-img">
-            <img class="sponser-img2" src="./img/animal_foundation.jpg" alt="animalfoundation-img">
-            <p class="sponserText">Liver Wall is sponser of animal protection association.</p>
+            <h2 class="animation Sponser-title">Sponser</h2>
+            <img class="animation sponser-img1" src="./img/animalprotection.jpg" alt="animalprotection-img">
+            <img class="animation sponser-img2" src="./img/animal_foundation.jpg" alt="animalfoundation-img">
+            <p class="animation sponserText">Liver Wall is sponser of animal protection association.</p>
         </section>
 
         <!-- ここから中村 -->
         <section id="service" class="maxwidth">
-            <h2 class="maxwidth">Service</h2>
+            <h2 class="animation maxwidth">Service</h2>
             <div class="boxs display">
-                <div class="boxleft box">
+                <div class="animation boxleft box">
                     <div class="imgbox">
                         <img class="boximg " src="./img/icon_01.png" alt="">
                         <div class="flex">
@@ -213,7 +216,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="boxcenter box">
+                <div class="animation boxcenter box">
                     <div class="imgbox">
                         <img src="./img/icon_04.png" alt="">
                         <div class="flex">
@@ -245,7 +248,7 @@
 
                 </div>
 
-                <div class="boxright box">
+                <div class="animation boxright box">
                     <div class="imgbox">
                         <img src="./img/icon_07.png" alt="">
                         <div class="flex">
@@ -282,14 +285,14 @@
         </section>
 
         <section id="voice">
-            <h2 class="maxwidth">Customer Voice</h2>
+            <h2 class="animation maxwidth">Customer Voice</h2>
             <div class="v-container ">
                 <div class="maxwidth display">
-                    <div class="voiceright">
+                    <div class="animation voiceright">
                         <img src="./img/voice_01.jpg" alt="">
                     </div>
 
-                    <div class="voiceleft">
+                    <div class="animation voiceleft">
                         <p class="text1">Actual liver　Anna　</p>
 
 
@@ -313,10 +316,10 @@
             </div>
         </section>
         <section id="contact">
-            <h2 class="maxwidth">Contact</h2>
+            <h2 class="animation maxwidth">Contact</h2>
             <div class="c-container">
                 <div class="maxwidth  display">
-                    <div class="forclient for">
+                    <div class="animation forclient for">
                         <h2>for Client</h2>
                         <p>samplesamplesamplesamplesample <br>
                             samplesamplesamplesamplesample</p>
@@ -339,7 +342,7 @@
                         </form>
 
                     </div>
-                    <div class="forliver for">
+                    <div class="animation forliver for">
                         <h2>for Liver</h2>
                         <p>Do you wanna use whatsup?<br>
                             Click below!</p>
@@ -352,10 +355,10 @@
         </section>
 
         <section id="company">
-            <h2 class="maxwidth">Company</h2>
+            <h2 class="animation maxwidth">Company</h2>
             <div class="company ">
                 <div class="maxwidth display">
-                    <div class="companyleft">
+                    <div class="animation companyleft">
                         <h3>LIVERS WALL</h3>
                         <h4>Details</h4>
                         <p>
@@ -367,7 +370,7 @@
                             etc
                         </p>
                     </div>
-                    <div class="map">
+                    <div class="animation map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.31954026505!2d127.75574976531318!3d26.31615058338822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e513051b6aba63%3A0x758d0e90af22e324!2z5YyX6LC355S6576O5rWc44Oh44OH44Kj44Ki44K544OG44O844K344On44Oz!5e0!3m2!1sja!2sjp!4v1665801373534!5m2!1sja!2sjp"
                             width="787" height="537.426938" style="border:0;" allowfullscreen="" loading="lazy"
@@ -382,6 +385,11 @@
         <p>All rights reserved by Liver wall</p>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
 
 
 
