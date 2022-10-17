@@ -1,23 +1,249 @@
 @media screen and (max-width:767px) {
-    $mainfont: 18px;
-    $subfont: 16px;
+    .display {
+        display: block;
+    }
 
-    // ヘッダー
-    header {
-        
-        .headerlist{
+    .maxwidth {
+        padding: 0 15%;
+    }
 
-            font-size: $subfont;
-            li{
-                font-size:$subfont;
-                display: none;
+    h2 {
+        font-size: 30px;
+    }
 
+    #service {
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            margin-bottom: 60px;
+        }
+
+        h3 {
+            padding: 0 5%;
+            font-weight: bold;
+        }
+
+        p {
+            padding: 0 12.5%;
+        }
+
+        .imgbox {
+            margin-bottom: 55px;
+        }
+
+
+
+        .boxs img {
+            width: 100%;
+        }
+
+        .flex div {
+            width: 25%;
+        }
+
+        .boxs {
+            .box {
+                padding-top: 55px;
+                margin-bottom: 45px;
+                width: 100%;
+
+                .margin1,
+                .margin2,
+                .margin3 {
+                    margin-top: 0;
+                }
+
+                .flex {
+                    display: flex;
+                    align-items: center;
+                }
             }
+
         }
     }
 
-    .kv{
-        
+    #voice {
+        .maxwidth {
+            padding: initial;
+        }
+
+        h2 {
+            margin-top: 133px;
+            margin-bottom: 47px;
+        }
+
+        .back {
+            display: none;
+        }
+
+        .v-container .voiceleft img {
+            box-shadow: none;
+        }
+
+        .voiceleft {
+
+            display: table-cell;
+            padding: 0 15%;
+
+
+            span {
+                position: relative;
+
+                &::after {
+                    content: '';
+
+                    width: 74vw;
+                    height: 102vw;
+                    background-color: #e7afc3;
+                    position: absolute;
+                    /* top: 0; */
+                    /* left: 0; */
+                    // bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                }
+            }
+        }
+
+        .voiceright {
+            margin: 51px auto 0 auto;
+        }
+
+        .dotto {
+            background-color: #fff;
+            background-image:
+                radial-gradient(#d8d8d8 20%, transparent 20%),
+                radial-gradient(#d8d8d8 20%, transparent 20%);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            width: 85%;
+        }
+
 
     }
+
+    #contact {
+        .sph2 {
+            text-align: center;
+        }
+
+        .c-container .forclient form .font .area,
+        .c-container .forclient form #btn {
+            margin-right: 0;
+        }
+
+        .c-container {
+            h2 {
+                font-size: 18px;
+
+            }
+
+            .forclient {
+                width: 100%;
+                border-right: none;
+                border-bottom: solid;
+                padding-bottom: 93px;
+
+                h2 {
+                    margin-top: 14px;
+                    text-align: center;
+                    margin-bottom: 33px;
+                }
+
+                p {
+                    word-break: break-all;
+
+                }
+
+
+            }
+        }
+
+        .c-container .forliver h2 {
+            margin-top: 70px;
+            margin-left: 0;
+            margin-bottom: 48px;
+        }
+
+        .forliver {
+            text-align: center;
+        }
+
+        .c-container .forliver p {
+            margin-left: 0;
+            display: inline-block;
+            text-align: left;
+        }
+
+
+        .c-container .forliver .whatsapp {
+            margin-left: 0;
+
+        }
+
+        .c-container .forliver .maxwidth {
+            padding: initial;
+        }
+
+        .c-container .forliver .whatsapp .img1 img {
+
+            transform: rotate(90deg);
+        }
+
+        .c-container .forliver .whatsapp .img1 {
+            width: 12.5%;
+            margin: 0 auto;
+        }
+
+        .c-container .forliver .whatsapp .img2 {
+            width: 82%;
+            margin-left: 0;
+            margin: 0 auto;
+        }
+
+        c-container .forliver .whatsapp {
+            margin-left: 10.253165%;
+            margin-top: 189px;
+        }
+
+    }
+
+    #company {
+        h2 {
+            margin-top: 262px;
+        }
+
+        .company .companyleft h4 {
+            font-size: 18px;
+            margin-top: 0px;
+        }
+
+        .company .companyleft p {
+            margin-top: 20px;
+            font-size: 16px;
+            margin-right: 0;
+            margin-bottom: 48px;
+        }
+
+        .map {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 75%;
+        }
+
+        .google_map{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    footer{
+        margin-top: 44px;
+    }
+
 }
