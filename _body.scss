@@ -59,13 +59,7 @@ body {
                 display: none;
             }
 
-            // .kvbgimgsp {
-            //     display: none;
-            // }
-            // @media screen and (max-width:$sp) {
-            //     position: absolute;
-            //     z-index: 0;
-            // }
+
 
 
             .kvbgimg,
@@ -77,6 +71,17 @@ body {
                 }
             }
         }
+
+        .kvbgimgsp {
+            display: none;
+
+            @media screen and (max-width:$sp) {
+                display: block;
+                position: absolute;
+                // z-index: 0;
+            }
+        }
+
 
 
         .kv-wrapper {

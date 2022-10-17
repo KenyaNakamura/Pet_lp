@@ -25,7 +25,6 @@ header .headerlist li {
   right: 10px;
   height: 60px;
   width: 60px;
-  background-color: #3584bb;
   z-index: 90;
   display: none;
 }
@@ -174,6 +173,15 @@ body .kv .kvbgimg .kv-wrapper {
   body .kv .kvbgimg .kvbgimg,
 body .kv .kvbgimg .kv-wrapper {
     margin-top: none;
+  }
+}
+body .kv .kvbgimgsp {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  body .kv .kvbgimgsp {
+    display: block;
+    position: absolute;
   }
 }
 body .kv .kv-wrapper {
