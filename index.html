@@ -6,14 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./reset.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
-    <!-- <h2 class="petlivers">Pet Livers</h2> -->
-
     <!-- ヘッダー -->
     <header>
         <ul class="animation headerlist display">
@@ -25,20 +23,65 @@
             <li>Contact</li>
             <li>Company</li>
         </ul>
+
+
+        <!-- ハンバーガーメニュー -->
+        <!-- 三本線 -->
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+
+            <!--ここからメニュー-->
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="#">Livers</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Sponser</a>
+                    </li>
+                    <li>
+                        <a href="#">Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Voice</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Company</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ここまでメニュー-->
+
+        </div>
+
+
     </header>
+
+
+
+
 
     <!-- キーヴィジュアル -->
     <div class="kv">
         <img class="kvbgimg" src="./img/kv_pc.png" alt="">
-        <!--kv人物、動物画像 -->
-        <div class="kv-wrapper">
+        <!-- <img class="kvbgimgsp" src="./img/kv_sp.png" alt=""> -->
 
+        <div class="kv-wrapper">
             <div class="kvimg-content1">
-                <img class="kv-person_img3 kvimg" src="./img/kv_03_sp.jpg" alt="">
+
+                <img class="kv-person_img3 kvimg" src="./img/kv03.jpg" alt="">
+                <img class="kv-person_spimg3 " src="./img/kv_03_sp.jpg" alt="">
                 <img class="kv-person_img2 kvimg" src="./img/kv_02_pc.jpg" alt="">
+                <img class="kv-person_spimg2 " src="./img/kv_02_sp.jpg" alt="">
             </div>
 
-            <!-- kvテキスト -->
             <div class="kv-text">
                 <p class="kv-txt1">No. 1 on customer support</p>
                 <p class="kv-txt1">If you wanna be a pet <br> liver, this is your place</p>
@@ -49,7 +92,9 @@
 
             <div class="kvimg-content2">
                 <img class="kv-person_img1 kvimg" src="./img/kv01.jpg" alt="">
+                <img class="kv-person_spimg1" src="./img/kv_01_sp.jpg" alt="">
                 <img class="kv-person_img4 kvimg" src="./img/kv_04.jpg" alt="">
+                <img class="kv-person_spimg4" src="./img/kv_04_sp.jpg" alt="">
             </div>
         </div>
     </div>
@@ -131,8 +176,8 @@
                 <!-- </div> -->
 
                 <div class="maxwidth">
-                    <div class="display">
-                        <div class="animation textblock">
+                    <div class="display displayorder">
+                        <div class="animation textblock txtblock1">
                             <p class="AboutText">About us</p>
                             <p class="AboutText-content textcontent1">
                                 We are a company that started with a <br>
@@ -155,7 +200,7 @@
                             <img data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in"
                                 data-aos-duration="500" class="About-img2" src="./img/about_02.jpg" alt="aboutimg2">
                         </div>
-                        <div class="animation textblock">
+                        <div class="animation textblock txtblock2">
                             <p class="AboutText">No. 1 customer support</p>
                             <p class="AboutText-content textcontent2">
                                 We know you are not a proffesional liver. <br>

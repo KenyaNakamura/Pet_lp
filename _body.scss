@@ -37,7 +37,8 @@ h2 {
     transform: translateY(0);
 }
 
-//   追加ここまで
+// ブレイクポイント
+$sp: 767px;
 
 
 body {
@@ -46,36 +47,36 @@ body {
     .kv {
         position: relative;
 
+        @media screen and (max-width:$sp) {
+            display: flex;
+            align-items: center;
+        }
+
         .kvbgimg {
             position: absolute;
+
+            @media screen and (max-width:$sp) {
+                display: none;
+            }
+
+            // .kvbgimgsp {
+            //     display: none;
+            // }
+            // @media screen and (max-width:$sp) {
+            //     position: absolute;
+            //     z-index: 0;
+            // }
+
 
             .kvbgimg,
             .kv-wrapper {
                 margin-top: 120px;
+
+                @media screen and (max-width:$sp) {
+                    margin-top: none;
+                }
             }
         }
-
-        .kv-person_img3,
-        .kv-person_img1 {
-            padding-bottom: 14px;
-        }
-
-        .kv-text {
-            z-index: 1;
-
-            .kv-txt1 {
-                font-size: 29px;
-            }
-
-            .kv-txt2 {
-                font-size: 63px;
-            }
-
-            .kv-txt3 {
-                font-size: 24px;
-            }
-        }
-
 
 
         .kv-wrapper {
@@ -85,19 +86,100 @@ body {
             padding: 0 2.75%;
             aspect-ratio: 13 / 7;
 
-            .kvimg-content1,
-            .kvimg-content2 {
-                width: 23%;
+            @media screen and (max-width:$sp) {
+                display: flex;
+                flex-direction: column;
+                align-content: space-between;
+                align-items: center;
+                padding: 0;
+
             }
 
             .kvimg {
                 width: 100%;
                 display: block;
+            }
+
+            .kv-person_img3,
+            .kv-person_img1 {
+                padding-bottom: 14px;
+            }
+
+            .kvimg-content1,
+            .kvimg-content2 {
+                width: 23%;
+
+                @media screen and (max-width:$sp) {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    width: auto;
+                    justify-content: center;
+                }
+            }
+
+            // sp画像
+            .kv-person_img3,
+            .kv-person_img2,
+            .kv-person_img1,
+            .kv-person_img4 {
+                @media screen and (max-width:$sp) {
+                    display: none;
+                }
+            }
+
+            .kv-person_spimg3,
+            .kv-person_spimg2,
+            .kv-person_spimg1,
+            .kv-person_spimg4 {
+                display: none;
+
+                @media screen and (max-width:$sp) {
+                    display: block;
+                }
 
             }
 
+            .kv-person_spimg3,
+            .kv-person_spimg4 {
+                width: 59.18181818%;
+            }
 
+            .kv-person_spimg2,
+            .kv-person_spimg1 {
+                width: 39.72727273%;
+            }
 
+            .kv-text {
+                z-index: 1;
+
+                @media screen and (max-width:$sp) {
+                    margin: 20px 0;
+                }
+            }
+
+            .kv-txt1 {
+                font-size: 29px;
+
+                @media screen and (max-width: $sp) {
+                    font-size: 4vw;
+                }
+            }
+
+            .kv-txt2 {
+                font-size: 63px;
+
+                @media screen and (max-width: $sp) {
+                    font-size: 8.6vw;
+                }
+            }
+
+            .kv-txt3 {
+                font-size: 24px;
+
+                @media screen and (max-width: $sp) {
+                    font-size: 3.7vw;
+                }
+            }
         }
     }
 
@@ -112,11 +194,21 @@ body {
             .petlivers-title {
                 margin-top: 104px;
                 margin-bottom: 61px;
+                font-size: 43px;
+
+                @media screen and (max-width: $sp) {
+                    font-size: 30px;
+                }
             }
 
             .PetLivers-content {
                 background-color: #000000;
                 padding: 98.01px 0 94.2px;
+
+                @media screen and (max-width: $sp) {
+                    padding: 71.36px 0;
+                }
+
 
 
 
@@ -126,14 +218,32 @@ body {
                     justify-content: center;
                     max-width: 1170px;
                     margin: auto;
+
+                    @media screen and (max-width: $sp) {
+                        display: block;
+                        padding: 0 15%;
+                        width: auto;
+                    }
                 }
 
                 .PetLivers-box {
                     width: 24.184256%;
-
                     background: #FFFFFF;
                     margin-right: 1.265823%;
                     margin-bottom: 21.93px;
+
+                    @media screen and (max-width: $sp) {
+                        width: 100%;
+                        margin-bottom: 55px;
+                    }
+
+                    // .box8 {
+                    //     @media screen and (max-width: $sp) {
+                    //         margin-bottom: 0;
+                    //     }
+                    // }
+
+
 
                     img {
                         // width: 18.5%;
@@ -185,6 +295,10 @@ body {
 
                 .txtName {
                     font-size: 28px;
+
+                    @media screen and (max-width: $sp) {
+                        font-size: 24px;
+                    }
                 }
 
                 .txtComent {
@@ -216,6 +330,11 @@ body {
 
             .aboutimg {
                 width: 35.536603%;
+
+                @media screen and (max-width: $sp) {
+                    width: auto;
+                    padding: 2% 15%;
+                }
             }
 
             .about-title {
@@ -224,32 +343,93 @@ body {
             }
 
             .display {
+                @media screen and (max-width: $sp) {
+                    display: block;
+                }
+
+                .displayorder {
+                    display: flex;
+                }
+
                 .About-img1 {
                     width: 100%;
                     margin-top: 33px;
                     box-shadow: 25px 25px #F9C83B;
+
+                    @media screen and (max-width: $sp) {
+                        order: 2;
+                        box-shadow: none;
+                        border: solid #F9C83B;
+                        border-width: 0 20px 20px 0;
+                    }
 
                 }
 
                 .About-img2 {
                     width: 100%;
                     margin-top: 28px;
-                    // margin-left: 13.25%;
                     box-shadow: -25px 25px #FFF835;
+
+                    @media screen and (max-width: $sp) {
+                        box-shadow: none;
+                        border: solid #FFF835;
+                        border-width: 0 20px 20px 0;
+                    }
                 }
+
 
                 .textblock {
                     display: block;
                     z-index: 2;
-                    // margin-left: 16.85%;
+
+                    @media screen and (max-width: $sp) {
+                        padding: 5% 12%;
+                        // line-height: 17px;
+                    }
                 }
+
+                .txtblock1,
+                .txtblock2 {
+                    @media screen and (max-width: $sp) {
+                        background-image: url(../../img/bg_01.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-origin: content-box;
+                        width: 81.81818182%;
+                    }
+                }
+
 
                 .AboutText {
                     margin-bottom: 47px;
+                    font-size: 34px;
+
+                    @media screen and (max-width: $sp) {
+                        font-size: 20px;
+                        order: 1;
+                        margin-bottom: 10px;
+                    }
                 }
 
                 .AboutText-content {
                     font-size: 21px;
+
+                    @media screen and (max-width: $sp) {
+                        font-size: 18px;
+
+                    }
+                }
+
+                .textcontent1 {
+                    @media screen and (max-width: $sp) {
+                        order: 3;
+                    }
+                }
+
+                .txtblock2 {
+                    @media screen and (max-width: $sp) {
+                        margin-top: 20px;
+                    }
                 }
 
             }
@@ -258,6 +438,10 @@ body {
             // .about-pattern {
             .pattern {
                 position: absolute;
+
+                @media screen and (max-width: $sp) {
+                    display: none;
+                }
             }
 
             .pattern1 {
@@ -294,11 +478,6 @@ body {
                 right: 6.7065%;
                 top: 1085px;
             }
-
-
-
-
-            // }
         }
     }
 
@@ -313,11 +492,20 @@ body {
         .Sponser-title {
             font-weight: 700;
             margin-bottom: 46px;
+
+            @media screen and (max-width: $sp) {
+                font-size: 30px;
+                margin-top: 68.9px;
+            }
         }
 
         .sponser-img1 {
             width: 89.240506%;
             margin-bottom: 83px;
+
+            @media screen and (max-width: $sp) {
+                margin-bottom: 45px;
+            }
         }
 
         .sponser-img2 {
@@ -328,9 +516,14 @@ body {
         .sponserText {
             font-size: 34px;
             margin-bottom: 164px;
+
+            @media screen and (max-width: $sp) {
+                display: none;
+            }
         }
     }
 
 }
+
 
 // ボディタグここまで
