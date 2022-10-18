@@ -92,7 +92,8 @@ header .headerlist li {
 }
 
 .menu-content ul {
-  padding: 70px 10px 0;
+  padding: 80px 30px;
+  background-color: rgba(16, 69, 153, 0.8);
 }
 
 .menu-content li {
@@ -378,12 +379,26 @@ body main .PetLivers .PetLivers-content .txtComent {
   font-size: 16px;
   margin-bottom: 27.56px;
 }
+@media screen and (max-width: 767px) {
+  body main .About .maxwidth {
+    padding: 0;
+  }
+}
 body main .About .about-content {
   position: relative;
 }
-body main .About .display {
+body main .About .display2 {
+  display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  body main .About .display2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 body main .About .aboutimg {
   width: 35.536603%;
@@ -398,89 +413,92 @@ body main .About .about-title {
   margin-top: 93px;
   font-weight: 700;
 }
+body main .About .display3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+}
 @media screen and (max-width: 767px) {
-  body main .About .display {
+  body main .About .display3 {
     display: block;
   }
 }
-body main .About .display .displayorder {
-  display: flex;
-}
-body main .About .display .About-img1 {
+body main .About .About-img1 {
   width: 100%;
   margin-top: 33px;
   box-shadow: 25px 25px #F9C83B;
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .About-img1 {
-    order: 2;
+  body main .About .About-img1 {
     box-shadow: none;
     border: solid #F9C83B;
     border-width: 0 20px 20px 0;
   }
 }
-body main .About .display .About-img2 {
+body main .About .About-img2 {
   width: 100%;
   margin-top: 28px;
   box-shadow: -25px 25px #FFF835;
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .About-img2 {
+  body main .About .About-img2 {
     box-shadow: none;
     border: solid #FFF835;
     border-width: 0 20px 20px 0;
   }
 }
-body main .About .display .textblock {
+body main .About .textblock {
   display: block;
-  z-index: 2;
+  z-index: 4;
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .textblock {
-    padding: 5% 12%;
+  body main .About .textblock {
+    margin: auto;
   }
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .txtblock1,
-body main .About .display .txtblock2 {
+  body main .About .txtblock1,
+body main .About .txtblock2 {
     background-image: url(../../img/bg_01.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
-    width: 81.81818182%;
+    width: 85%;
   }
 }
-body main .About .display .AboutText {
+body main .About .AboutText {
   margin-bottom: 47px;
   font-size: 34px;
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .AboutText {
+  body main .About .AboutText {
     font-size: 20px;
-    order: 1;
     margin-bottom: 10px;
   }
 }
-body main .About .display .AboutText-content {
+body main .About .AboutText-content {
   font-size: 21px;
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .AboutText-content {
+  body main .About .AboutText-content {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .textcontent1 {
+  body main .About .textcontent1 {
     order: 3;
   }
 }
 @media screen and (max-width: 767px) {
-  body main .About .display .txtblock2 {
+  body main .About .txtblock2 {
     margin-top: 20px;
   }
 }
 body main .About .pattern {
   position: absolute;
+  z-index: 3;
 }
 @media screen and (max-width: 767px) {
   body main .About .pattern {

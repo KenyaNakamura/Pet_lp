@@ -22,7 +22,7 @@ $(function () {
 AOS.init({
   offset: 300,
   duration: 200,
-  anchorPlacement: "bottom-center",
+  anchorPlacement: "center-center",
 
 
   disable: function () {
