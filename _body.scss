@@ -39,10 +39,15 @@ h2 {
 
 // ブレイクポイント
 $sp: 767px;
-
-
 body {
 
+// kvsliderここから
+
+
+
+
+
+// kvここから
 
     .kv {
         position: relative;
@@ -52,7 +57,7 @@ body {
             align-items: center;
         }
 
-        .kvbgimg {
+        .kvbgimg{
             position: absolute;
 
             @media screen and (max-width:$sp) {
@@ -113,7 +118,6 @@ body {
             .kvimg-content1,
             .kvimg-content2 {
                 width: 23%;
-
                 @media screen and (max-width:$sp) {
                     display: flex;
                     flex-direction: row-reverse;
